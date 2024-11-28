@@ -1,6 +1,6 @@
 FROM alpine:3.20
 
-ARG PHP_VERSION=8.2.25
+ARG PHP_VERSION=8.2.26
 ARG PHP_URL="https://www.php.net/distributions/php-${PHP_VERSION}.tar.xz"
 
 ENV PHPIZE_DEPS \
