@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ARG NGINX_VERSION=1.27.2
+ARG NGINX_VERSION=1.27.3
 
 RUN set -eux; \
   # install deps and dev-deps
