@@ -1,15 +1,16 @@
-FROM alpine:edge
+FROM alpine:3.21
 
-ARG REDIS_VERSION="7.2.6"
+ARG REDIS_VERSION="7.4.1"
 
-LABEL org.opencontainers.image.base.name="docker.io/library/alpine:edge" \
+LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.21" \
       org.opencontainers.image.description="Application packaged by sxbrsky" \
       org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-images/tree/master/redis/README.md" \
       org.opencontainers.image.licenses="MIT" \
-      org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/redis/7.2" \
+      org.opencontainers.image.ref.name="7.4.1-alpine3.21" \
+      org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/redis/7.4" \
       org.opencontainers.image.title="redis" \
       org.opencontainers.image.vendor="sxbrsky" \
-      org.opencontainers.image.version="7.2.6"
+      org.opencontainers.image.version="7.4.1"
 
 RUN set -eux; \
     \

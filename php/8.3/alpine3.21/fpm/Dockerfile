@@ -1,16 +1,17 @@
-FROM alpine:3.20
+FROM alpine:3.21
 
-ARG PHP_VERSION=8.4.1
+ARG PHP_VERSION=8.3.14
 ARG PHP_URL="https://www.php.net/distributions/php-${PHP_VERSION}.tar.xz"
 
-LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.20" \
+LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.21" \
       org.opencontainers.image.description="Application packaged by sxbrsky" \
       org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-images/tree/master/php/README.md" \
       org.opencontainers.image.licenses="MIT" \
-      org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/php/8.4/fpm" \
-      org.opencontainers.image.title="php" \
+      org.opencontainers.image.ref.name="8.3.14-alpine3.21" \
+      org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/php/8.3/fpm" \
+      org.opencontainers.image.title="php-fpm" \
       org.opencontainers.image.vendor="sxbrsky" \
-      org.opencontainers.image.version="8.4.1"
+      org.opencontainers.image.version="8.3.14"
 
 ENV PHPIZE_DEPS \
   autoconf \
