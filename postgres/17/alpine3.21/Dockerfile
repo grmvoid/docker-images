@@ -1,11 +1,12 @@
-FROM alpine:3.19
+FROM alpine:3.21
 
 ARG POSTGRES_VERSION=17.2
 
-LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.19" \
+LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.21" \
       org.opencontainers.image.description="Application packaged by sxbrsky" \
       org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-images/tree/master/postgres/README.md" \
       org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.ref.name="17.2-alpine3.21" \
       org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/postgres/17" \
       org.opencontainers.image.title="postgres" \
       org.opencontainers.image.vendor="sxbrsky" \

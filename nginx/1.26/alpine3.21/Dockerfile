@@ -1,15 +1,16 @@
-FROM alpine:edge
+FROM alpine:3.21
 
-ARG NGINX_VERSION=1.27.3
+ARG NGINX_VERSION=1.26.2
 
-LABEL org.opencontainers.image.base.name="docker.io/library/alpine:edge" \
+LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.21" \
       org.opencontainers.image.description="Application packaged by sxbrsky" \
       org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-images/tree/master/nginx/README.md" \
       org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.ref.name="1.26.2-alpine3.21" \
       org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/nginx" \
       org.opencontainers.image.title="nginx" \
       org.opencontainers.image.vendor="sxbrsky" \
-      org.opencontainers.image.version="1.27.3"
+      org.opencontainers.image.version="1.26.2"
 
 RUN set -eux; \
   # install deps and dev-deps
