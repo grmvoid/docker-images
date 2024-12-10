@@ -3,6 +3,15 @@ FROM alpine:3.20
 ARG PHP_VERSION=8.4.1
 ARG PHP_URL="https://www.php.net/distributions/php-${PHP_VERSION}.tar.xz"
 
+LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.20" \
+      org.opencontainers.image.description="Application packaged by sxbrsky" \
+      org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-images/tree/master/php/README.md" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/php/8.4/fpm" \
+      org.opencontainers.image.title="php" \
+      org.opencontainers.image.vendor="sxbrsky" \
+      org.opencontainers.image.version="8.4.1"
+
 ENV PHPIZE_DEPS \
   autoconf \
   dpkg dpkg-dev \

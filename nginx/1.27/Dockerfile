@@ -2,6 +2,15 @@ FROM alpine:edge
 
 ARG NGINX_VERSION=1.27.3
 
+LABEL org.opencontainers.image.base.name="docker.io/library/alpine:edge" \
+      org.opencontainers.image.description="Application packaged by sxbrsky" \
+      org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-images/tree/master/nginx/README.md" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.source="https://github.com/sxbrsky/docker-images/tree/master/nginx" \
+      org.opencontainers.image.title="nginx" \
+      org.opencontainers.image.vendor="sxbrsky" \
+      org.opencontainers.image.version="1.27.3"
+
 RUN set -eux; \
   # install deps and dev-deps
     apk add --no-cache \
