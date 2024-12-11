@@ -1,0 +1,9 @@
+{
+    "17": {
+        "url": "https://ftp.postgresql.org/pub/source/17.2/postgresql-17.2.tar.bz2",
+        "variants": [
+            "alpine3.21"
+        ],
+        "version": "17.2"
+    }
+}

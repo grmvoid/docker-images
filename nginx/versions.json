@@ -1,0 +1,23 @@
+{
+    "1.25": {
+        "url": "https://nginx.org/download/nginx-1.25.5.tar.gz",
+        "variants": [
+            "alpine3.21"
+        ],
+        "version": "1.25.5"
+    },
+    "1.26": {
+        "url": "https://nginx.org/download/nginx-1.26.2.tar.gz",
+        "variants": [
+            "alpine3.21"
+        ],
+        "version": "1.26.2"
+    },
+    "1.27": {
+        "url": "https://nginx.org/download/nginx-1.27.1.tar.gz",
+        "variants": [
+            "alpine3.21"
+        ],
+        "version": "1.27.1"
+    }
+}
