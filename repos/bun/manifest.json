@@ -1,0 +1,30 @@
+{
+  "gitRepo": "https://github.com/sxbrsky/docker-bun",
+  "imageName": "sxbrsky/bun",
+  "images": [
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "1.1.38",
+        "1.1"
+      ],
+      "gitCommit": "0ddaa64c6c9586ef654daf9a49b86292783831fb",
+      "directory": "1.1"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "1.0.36",
+        "1.0"
+      ],
+      "gitCommit": "0ddaa64c6c9586ef654daf9a49b86292783831fb",
+      "directory": "1.0"
+    }
+  ]
+}

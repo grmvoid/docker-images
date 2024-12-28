@@ -1,0 +1,19 @@
+{
+  "gitRepo": "https://github.com/sxbrsky/docker-paper",
+  "imageName": "sxbrsky/paper",
+  "images": [
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "1.21.3-82",
+        "1.21.3",
+        "1.21"
+      ],
+      "gitCommit": "9541cdb81b5b68c4c53516575b94721e37e13f5d",
+      "directory": "1.21"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "gitRepo": "https://github.com/sxbrsky/docker-postgres",
+  "imageName": "sxbrsky/postgres",
+  "images": [
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "17.2",
+        "17"
+      ],
+      "gitCommit": "76dfcee579e29a93a1f184cba571cebe2f88aad8",
+      "directory": "17"
+    }
+  ]
+}

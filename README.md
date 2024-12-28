@@ -1,4 +1,4 @@
-# docker images
+# Source of truth repo of the docker images
 
 ## License
 

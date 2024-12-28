@@ -1,0 +1,42 @@
+{
+  "gitRepo": "https://github.com/sxbrsky/docker-nginx",
+  "imageName": "sxbrsky/nginx",
+  "images": [
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "1.27.3",
+        "1.27"
+      ],
+      "gitCommit": "362c8e2a1dab5408ce45fa2ae248ebf1c459d557",
+      "directory": "1.27"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "1.26.2",
+        "1.26"
+      ],
+      "gitCommit": "362c8e2a1dab5408ce45fa2ae248ebf1c459d557",
+      "directory": "1.26"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "1.25.5",
+        "1.25"
+      ],
+      "gitCommit": "362c8e2a1dab5408ce45fa2ae248ebf1c459d557",
+      "directory": "1.25"
+    }
+  ]
+}

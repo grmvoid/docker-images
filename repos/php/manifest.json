@@ -1,0 +1,110 @@
+{
+  "gitRepo": "https://github.com/sxbrsky/docker-php",
+  "imageName": "sxbrsky/php",
+  "images": [
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.4.1",
+        "8.4",
+        "8.4.1-cli",
+        "8.4-cli"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.4/cli"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.4.1-fpm",
+        "8.4-fpm"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.4/fpm"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.3.14",
+        "8.3",
+        "8.3.14-cli",
+        "8.3-cli"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.3/cli"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.3.14-fpm",
+        "8.3-fpm"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.3/fpm"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.2.26",
+        "8.2",
+        "8.2.26-cli",
+        "8.2-cli"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.2/cli"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.2.26-fpm",
+        "8.2-fpm"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.2/fpm"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.1.30",
+        "8.1",
+        "8.1.30-cli",
+        "8.1-cli"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.1/cli"
+    },
+    {
+      "architectures": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "tags": [
+        "8.1.30-fpm",
+        "8.1-fpm"
+      ],
+      "gitCommit": "3404d275487b5046e69eacef8e5c532dab665edf",
+      "directory": "8.1/fpm"
+    }
+  ]
+}
