@@ -1,6 +1,6 @@
 {
-  "gitRepo": "https://github.com/sxbrsky/docker-paper",
-  "imageName": "sxbrsky/paper",
+  "gitRepo": "https://github.com/grmvoid/docker-paper",
+  "imageName": "grmvoid/paper",
   "images": [
     {
       "architectures": [
