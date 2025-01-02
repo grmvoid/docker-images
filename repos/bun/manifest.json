@@ -1,6 +1,6 @@
 {
-  "gitRepo": "https://github.com/sxbrsky/docker-bun",
-  "imageName": "sxbrsky/bun",
+  "gitRepo": "https://github.com/grmvoid/docker-bun",
+  "imageName": "grmvoid/bun",
   "images": [
     {
       "architectures": [
